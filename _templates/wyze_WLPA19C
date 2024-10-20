@@ -19,3 +19,7 @@ standard: e26
 5. Solder jumper wires and flash tasmota using serial
 
 [Photos](https://imgur.com/a/UlB1Eux)
+
+Note: The Amazon link now directs to a new WLPA19CV2. The new bulb is based on the ESP32-C3 and uses a BP5758D Driver for LED control. 
+While you can flash tasmota to the device, the I2C driver that is compiled with the ESP32-C3 bianary does not include support for the BP5758D.
+The light does work with ESPhome, so with a properly configuared bianary it should work with tasmota.
